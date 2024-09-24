@@ -1,0 +1,155 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: Courier;
+    color: #000000;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #ffffff;
+    z-index: 1;
+    border-bottom: 1px solid #000000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #a792a0;
+}
+
+.center {
+    display: block;
+    font-family: 'comic sans-ms';
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: rgb(50, 103, 119);
+    width: 50%;
+}
+
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'comic sans-ms';
+    color: #745e71;
+}
+
+h2 {
+    font-family: 'comic sans-ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color:rgb(31, 119, 61);
+    width: 100%;
+    line-height: 50px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans-ms';
+    color: #000000;
+}
+
+
+a.tbl-biru {
+    background: #46af26;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #2fb35b;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #3bbd57;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #1ba745;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #308134;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: #25a355;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #2e8b60;
+    cursor: pointer;
+    font-weight: bold;
+}
+p {
+    margin: 20px 0px 10px 0px;
+    padding: 20px 0px 10px 0px;
+}
